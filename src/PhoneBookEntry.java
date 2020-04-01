@@ -1,9 +1,9 @@
 import java.io.Serializable;
 
 public class PhoneBookEntry implements Serializable {
-    public String firstname = "";
-    public String lastname = "";
-    public String phone = "";
+    private String firstname;
+    private String lastname;
+    private String phone;
 
     public PhoneBookEntry(String firstname, String lastname, String phone) {
         this.setFirstname(firstname);
